@@ -3,10 +3,12 @@ package Items
 
 import org.scalajs.dom
 import org.scalajs.dom.raw.SVGElement
+import paperjs.Basic._
+import paperjs.Projects._
+import paperjs.Styling._
+import paperjs.Tools.ToolEvent
 
 import scala.scalajs.js
-import Basic._, Styling._,Projects._,Tools.ToolEvent
-
 import scala.scalajs.js.annotation.JSName
 
 /**

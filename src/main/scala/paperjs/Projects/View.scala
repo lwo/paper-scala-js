@@ -1,19 +1,16 @@
 package paperjs
 package Projects
 
-import Basic._
-import org.scalajs.dom
+import org.scalajs.dom._
+import paperjs.Basic._
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
-import org.scalajs.dom._
 
 /**
  * Created by yoelusa on 25/04/15.
  */
 
 @js.native
-@JSName("paper.View")
 trait View extends EventHandling[View] {
   val element: raw.HTMLCanvasElement = js.native
   val pixelRatio: Double = js.native

@@ -1,8 +1,7 @@
 sonatypeSettings
 name         := "paper-scala-js"
 version      := "0.5-SNAPSHOT"
-scalaVersion := "2.11.7"
-organization := "com.github.yoeluk"
+scalaVersion := "2.12.2"
 
 enablePlugins(ScalaJSPlugin)
 
@@ -13,8 +12,8 @@ scalacOptions ++= Seq(
   "-language:implicitConversions",
   "-language:reflectiveCalls"
 )
-libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.8.1"
-jsDependencies += "org.webjars" % "paperjs" % "0.9.22" / "paper-full.min.js" commonJSName "paper"
+libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1"
+jsDependencies += "org.webjars.npm" % "paper"  % "0.11.4" / "paper-full.min.js" commonJSName "paper"
 
 publishMavenStyle       := true
 publishArtifact in Test := false

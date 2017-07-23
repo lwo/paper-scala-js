@@ -1,9 +1,9 @@
 package paperjs
 package Styling
 
-import scala.scalajs.js
-import Projects._
+import paperjs.Projects._
 
+import scala.scalajs.js
 import scala.scalajs.js.annotation.JSName
 
 /**
